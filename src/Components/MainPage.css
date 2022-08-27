@@ -1,0 +1,43 @@
+.MainPage{
+    border-bottom-style: solid;
+    border-bottom-color: #44D62C;
+}
+@media only screen and (max-width: 600px){
+    .intro{
+        margin-top: 10%;
+    }
+}
+.item{
+
+}
+.item-num{
+    color: white;
+}
+.link-title{
+    opacity: 0;
+}
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    margin: 5%;
+    color: #2fff00;
+    font-size: 1.1rem;
+}
+
+.hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #2fff00;;
+    transform-origin: bottom right;
+    transition: transform 0.50s ease-in-out;
+}
+
+.hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
