@@ -1,7 +1,7 @@
 {
   "name": "personalweb",
   "version": "0.1.0",
-  "homepage": "https://lwilliams002.github.io/personalweb/",
+  "homepage": "https://lwilliams002.github.io/personalweb",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.2",
@@ -21,11 +21,12 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
+
   },
   "eslintConfig": {
     "extends": [
