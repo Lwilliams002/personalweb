@@ -15,7 +15,7 @@ function frontPage() {
                 <Col lg={12}>
                     <Container className={"justify-content-center"}>
                         <Container>
-                            <img className={"profile"} src={"../EyeWinck.png"} alt={"Profile pic"}/>
+                            <img className={"profile"} src={"https://github.com/Lwilliams002/personalweb/blob/master/public/EyeWinck.png?raw=true"} alt={"Profile pic"}/>
                             <h1 className={"intro-title"}>Hi, I am<h1 className={"intro-title-loop"}>
                                 <Typical
                                     loop={Infinity}

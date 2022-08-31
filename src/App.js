@@ -6,6 +6,7 @@ import FrontPage from "./Components/UI/frontPage";
 function App() {
   return (
     <div>
+
       <MainPage />
         <FrontPage></FrontPage>
     </div>
