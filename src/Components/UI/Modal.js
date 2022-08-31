@@ -11,17 +11,16 @@ function Modal() {
     };
     return (
 
-        <Container>
-            <Button onClick={(e) => setVisibility(!visibility)} className={"contact"}
+        <Container className={"contact-popup"}>
+            <Button onClick={() => setVisibility(!visibility)} className={"contact"}
                     variant="outline-light">Contact</Button>
             <CustomPopup
                 className={"contact-popup"}
-
                 onClose={popupCloseHandler}
                 show={visibility}
                 title="Let's get in touch!"
             >
-                <Form>
+                <Form className={"contact-popup"}>
                     <Form.Group className="mb-3" controlId="formBasicText">
                         <Form.Control type="text" placeholder="Name" />
                     </Form.Group>

@@ -22,13 +22,11 @@ function frontPage() {
                                     wrapper="b"
                                     steps={[
                                         "Lesly Williams",
-                                        1000,
+                                        2000,
                                         "Full Stack Developer",
-                                        1000,
+                                        1500,
                                         "Project Manager",
-                                        1000,
-                                        "gamer",
-                                        1000
+                                        1500,
                                     ]}
                                 />
                             </h1>
@@ -36,7 +34,7 @@ function frontPage() {
                             <p className={"intro-sum"}>I am a frontend web developer. I can provide clean code and pixel
                                 perfect design. I also make website more & more interactive with web animations.</p>
                         </Container>
-                        <Container>
+                        <Container className={"contact-box"}>
                             <Modal/>
                         </Container>
                     </Container>
