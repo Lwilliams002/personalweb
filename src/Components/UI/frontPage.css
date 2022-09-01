@@ -7,7 +7,6 @@
     font-size: 2.9rem;
     font-weight: 750;
     padding-top: 1%;
-    font-family: Raleway,Helvetica,sans-serif;
 }
 .intro-title-loop{
     color: #2fff00;
@@ -20,8 +19,6 @@
     opacity: 80%;
     width: 75%;
     font-size: 1.1rem;
-    font-family: Raleway,Helvetica,sans-serif;
-
 }
 .profile{
     height: auto;
@@ -31,7 +28,7 @@
 
 @media only screen and (min-device-width: 600px) and (max-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 2) {
     .frontPage{
-        margin-top:20%;
+        margin-top:10%;
     }
 }
 

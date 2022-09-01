@@ -1,0 +1,33 @@
+.contact-pop{
+    color: #2fff00;
+}
+.title{
+    font-size: 2.6rem;
+    color: #2fff00;
+}
+.input-box{
+    border-bottom: medium solid;
+    color: #2fff00;
+    background-color: #1E242A;
+}
+.message-box{
+    border: medium solid;
+    color: #2fff00;
+    background-color: #1E242A;
+}
+.modal-content{
+    background-color: #1E242A;
+}
+.form-control:focus, .form-control:active {
+    background: transparent;
+    color: #2fff00;
+    border-bottom: medium solid;
+}
+.button-email{
+    background-color: transparent;
+    border: 1px solid #2fff00;
+    color: #2fff00;
+}
+.button-email:active{
+    background-color: #2fff00;
+}

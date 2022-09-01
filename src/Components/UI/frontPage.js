@@ -1,13 +1,13 @@
 import "./frontPage.css";
-import {Col, Container} from "react-bootstrap";
+import {Button, Col, Container} from "react-bootstrap";
 import {Row} from "react-bootstrap";
 import Typical from 'react-typical';
-import Modal from "./Modal";
-
+import ContactPop from "./ContactPop";
+import {useState} from "react";
 
 function frontPage() {
     // eslint-disable-next-line react-hooks/rules-of-hooks
-
+    const [modalShow, setModalShow] = useState(false);
 
     return (
         <Container className={"frontPage"}>
@@ -35,7 +35,14 @@ function frontPage() {
                                 perfect design. I also make website more & more interactive with web animations.</p>
                         </Container>
                         <Container className={"contact-box"}>
-                            <Modal/>
+                            <Button variant="outline-light" onClick={() => setModalShow(true)}>
+                                Contact
+                            </Button>
+
+                            <ContactPop
+                                show={modalShow}
+                                onHide={() => setModalShow(false)}
+                            />
                         </Container>
                     </Container>
                 </Col>
