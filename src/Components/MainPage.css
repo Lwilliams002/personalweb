@@ -1,14 +1,25 @@
 .item-num{
     color: white;
+
 }
 .link-title{
     opacity: 0;
+
 }
 .hover-underline-animation {
     display: inline-block;
     position: relative;
-    color: #2fff00;
+    color: #fdfdfd;
     font-size: 1.1rem;
+    padding-right: 5%;
+}
+a{
+    text-decoration: none;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+a:hover{
+    color:white;
 }
 
 .hover-underline-animation:after {
