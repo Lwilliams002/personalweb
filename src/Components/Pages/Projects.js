@@ -1,6 +1,6 @@
 import React from 'react';
-import { Container, Grid, Card, CardActionArea, CardMedia, CardContent, Typography } from '@mui/material';
-import { useNavigate } from 'react-router-dom';
+import { Container, Grid, Card, CardMedia, CardContent, Typography } from '@mui/material';
+import "./Projects.css";
 
 const projects = [
   {
@@ -10,9 +10,11 @@ const projects = [
   },
 
 ];
+const handleClick = () => {
+    window.location.href = "https://lwilliams002.github.io/Stockboard/";
+  };
 
 function Frontpage() {
-  const navigate = useNavigate();
 
   return (
     <div>
@@ -28,30 +30,18 @@ function Frontpage() {
       <Container>
         <Grid container justifyContent="center" spacing={4}>
           {projects.map((project, index) => (
-            <Grid item xs={12} sm={6} md={4} key={index}>
-              <Card
-                sx={{
-                  '&:hover': {
-                    boxShadow: '0 4px 20px rgba(0, 0, 0, 0.15)',
-                  },
-                }}
+            <Grid item xs={12} sm={6} md={4} key={index} className="project-card">
+              <div
+                onClick={handleClick}
               >
-                <CardActionArea onClick={() => navigate(project.path)}>
-                  <CardMedia
-                    sx={{
-                      height: 0,
-                      paddingTop: '56.25%', // 16:9
-                    }}
-                    image={project.image}
-                    title={project.title}
-                  />
-                  <CardContent>
-                    <Typography gutterBottom variant="h5" component="h2">
-                      {project.title}
-                    </Typography>
-                  </CardContent>
-                </CardActionArea>
-              </Card>
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  height="200"
+                  className="card-img"
+                />
+                <p className="card-text">{project.title}</p>
+              </div>
             </Grid>
           ))}
         </Grid>

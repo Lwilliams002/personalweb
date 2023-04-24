@@ -23,7 +23,7 @@ function Resume() {
               </p>
             </Container>
             <div className="github-box" onClick={handleClick}>
-              <img src="https://your-image-url.com/image.png" alt="GitHub Icon" />
+              <img src="https://github.com/Lwilliams002/personalweb/blob/master/public/img.png?raw=true" alt="GitHub Icon" />
               <p>View on GitHub</p>
             </div>
           </Col>
