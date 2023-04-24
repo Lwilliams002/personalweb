@@ -1,7 +1,7 @@
 import "./frontPage.css";
 import {Button, Col, Container} from "react-bootstrap";
 import {Row} from "react-bootstrap";
-import Typical from 'react-typical';
+import AnimatedText from './AnimatedText';
 import ContactPop from "./ContactPop";
 import {useState} from "react";
 
@@ -17,17 +17,14 @@ function frontPage() {
                         <Container>
                             <img className={"profile"} src={"https://github.com/Lwilliams002/personalweb/blob/master/public/EyeWinck.png?raw=true"} alt={"Profile pic"}/>
                             <h1 className={"intro-title"}>Hi, I am<h1 className={"intro-title-loop"}>
-                                <Typical
-                                    loop={Infinity}
-                                    wrapper="b"
-                                    steps={[
-                                        "Lesly Williams",
-                                        2000,
-                                        "Full Stack Developer",
-                                        1500,
-                                        "Project Manager",
-                                        1500,
-                                    ]}
+                                <AnimatedText
+                                  phrases={[
+                                    "Lesly Williams",
+                                    "Full Stack Developer",
+                                    "Project Manager",
+                                  ]}
+                                  typingSpeed={150}
+                                  delay={1500}
                                 />
                             </h1>
                             </h1>
