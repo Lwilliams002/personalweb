@@ -1,6 +1,11 @@
 import { Col, Container, Row } from "react-bootstrap";
 import "./Resume.css";
 
+
+
+const handleClick = () => {
+    window.location.href = "https://github.com/lwilliams002";
+  };
 function Resume() {
   return (
     <Container className={"resume"}>
@@ -17,6 +22,10 @@ function Resume() {
                 contribute to the software development community.
               </p>
             </Container>
+            <div className="github-box" onClick={handleClick}>
+              <img src="https://your-image-url.com/image.png" alt="GitHub Icon" />
+              <p>View on GitHub</p>
+            </div>
           </Col>
           <Col lg={4}>
             <Container className={"left-side"}>
