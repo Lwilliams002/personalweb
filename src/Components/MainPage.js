@@ -11,7 +11,7 @@ function MainPage() {
             <Navbar className={"MainPage"} bg="#1E242A" variant="dark" fixed={"top"} >
                 <Container className={"justify-content-center"}>
                         <Nav>
-                            <CustomLink to={"/"}>Home</CustomLink>
+                            <CustomLink to={"personalweb/"}>Home</CustomLink>
                             <CustomLink to={"/resume"}>Resume</CustomLink>
                         </Nav>
                 </Container>
