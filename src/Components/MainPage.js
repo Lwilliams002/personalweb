@@ -11,19 +11,21 @@ function MainPage() {
             <Navbar className={"MainPage"} bg="#1E242A" variant="dark" fixed={"top"} >
                 <Container className={"justify-content-center"}>
                         <Nav>
-                            <Nav.Item className={"item"}>
-                                <Link className={"hover-underline-animation"} to="/"><span className={"item-num"}>01.<span className={"link-title"}>.</span></span >Home</Link>
-                            </Nav.Item>
-                            <Nav.Item className={"item"}>
-                                <Link className={"hover-underline-animation"} to="/resume"><span className={"item-num"}>02.<span className={"link-title"}>.</span></span>Resume</Link>
-                            </Nav.Item>
-                            <Nav.Item className={"item"}>
-                                <Link className={"hover-underline-animation"} to="/contact"><span className={"item-num"}>03.<span className={"link-title"}>.</span></span>Contact</Link>
-                            </Nav.Item>
+                            <CustomLink to={"/"}>Home</CustomLink>
+                            <CustomLink to={"/resume"}>Resume</CustomLink>
                         </Nav>
                 </Container>
             </Navbar>
         </div>
     )
+}
+function CustomLink({to, children, ...props}){
+
+    return(
+        <Nav.Item className={"item"}>
+            <Link className={"hover-underline-animation"} to={to} {...props} >{children}</Link>
+        </Nav.Item>
+    )
+
 }
 export default MainPage;
