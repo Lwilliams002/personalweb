@@ -8,6 +8,11 @@ const projects = [
     image: 'https://user-images.githubusercontent.com/82903572/234044608-ff620d58-77e2-4db5-9dc3-718109182957.png',
     path: 'https://lwilliams002.github.io/Stockboard/',
   },
+    {
+      title: 'Expense Tracker',
+      image: "https://github.com/Lwilliams002/Expense-Tracker/blob/master/OIG.jpg?raw=true",
+      path: 'https://lwilliams002.github.io/Stockboard/',
+    },
 
 ];
 const handleClick = () => {
