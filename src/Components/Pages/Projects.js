@@ -15,12 +15,11 @@ const projects = [
     },
 
 ];
-const handleClick = () => {
-    window.location.href = "https://lwilliams002.github.io/Stockboard/";
+
+function Projects() {
+const handleProjectClick = (url) => {
+    window.location.href = url;
   };
-
-function Frontpage() {
-
   return (
     <div>
       <Typography
@@ -37,7 +36,7 @@ function Frontpage() {
           {projects.map((project, index) => (
             <Grid item xs={12} sm={6} md={4} key={index} className="project-card">
               <div
-                onClick={handleClick}
+                onClick={() => handleProjectClick(project.path)}
               >
                 <img
                   src={project.image}
@@ -56,4 +55,4 @@ function Frontpage() {
   );
 }
 
-export default Frontpage;
+export default Projects;

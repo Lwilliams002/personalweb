@@ -22,7 +22,7 @@ function frontPage() {
                                   phrases={[
                                     "Lesly Williams",
                                     "Full Stack Web Developer",
-                                    "Backend Specialist",
+                                    "Backend Developer",
                                     "API Developer",
                                   ]}
                                   typingSpeed={150}
