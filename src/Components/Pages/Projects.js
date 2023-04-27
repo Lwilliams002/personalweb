@@ -11,7 +11,7 @@ const projects = [
     {
       title: 'Expense Tracker',
       image: "https://github.com/Lwilliams002/Expense-Tracker/blob/master/img.png?raw=true",
-      path: 'https://lwilliams002.github.io/Stockboard/',
+      path: 'https://github.com/Lwilliams002/Expense-Tracker',
     },
 
 ];
