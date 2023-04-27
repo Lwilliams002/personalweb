@@ -1,11 +1,10 @@
 import { Col, Container, Row } from "react-bootstrap";
 import "./Resume.css";
 
-
-
 const handleClick = () => {
-    window.location.href = "https://github.com/lwilliams002";
-  };
+  window.location.href = "https://github.com/lwilliams002";
+};
+
 function Resume() {
   return (
     <Container className={"resume"}>
@@ -23,7 +22,10 @@ function Resume() {
               </p>
             </Container>
             <div className="github-box" onClick={handleClick}>
-              <img src="https://github.com/Lwilliams002/personalweb/blob/master/public/img.png?raw=true" alt="GitHub Icon" />
+              <img
+                src="https://github.com/Lwilliams002/personalweb/blob/master/public/img.png?raw=true"
+                alt="GitHub Icon"
+              />
               <p>View on GitHub</p>
             </div>
           </Col>
@@ -31,26 +33,37 @@ function Resume() {
             <Container className={"left-side"}>
               <h3 className="section-title">Contact</h3>
               <p>(754) 217-9770</p>
-              <p>Lesly.Williams001@mymdc.net</p>
+              <p>Lwilliams.devs@gmail.com</p>
               <p>Miami, Florida</p>
               <p>linkedin.com/in/lwilliams002</p>
-              <br />
+              <hr />
               <h3 className="section-title">Education</h3>
-              <p>Bachelor of Science</p>
-              <p>Computer Science</p>
+              <p>Bachelor of Science Computer Science</p>
               <p>Florida International University</p>
-              <p>2022 - Current</p>
-              <br />
+              <p>2023 - Current</p>
+              <hr />
               <h3 className="section-title">Skills</h3>
-              <p>HTML / CSS</p>
-              <p>JavaScript</p>
-              <p>Python</p>
-              <p>React</p>
-              <p>Next.js</p>
-              <p>Material-UI</p>
+              <Row>
+                <Col>
+                  <p>Python</p>
+                  <p>Java</p>
+                  <p>C#</p>
+                  <p>JavaScript</p>
+                  <p>Node.js</p>
+                  <p>Express.js</p>
+                </Col>
+                <Col>
+                  <p>React</p>
+                  <p>HTML5 / CSS3</p>
+                  <p>Git / GitHub</p>
+                  <p>
+                    Visual Studio / PyCharm / IntelliJ IDEA
+                  </p>
+                  <p>Illustrator / Photoshop / Figma</p>
+                </Col>
+              </Row>
             </Container>
           </Col>
-
         </Row>
       </Container>
     </Container>

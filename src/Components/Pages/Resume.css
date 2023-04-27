@@ -32,6 +32,7 @@ ul {
   list-style-type: none;
   padding-left: 0;
 }
+
 .github-box {
   display: flex;
   flex-direction: column;
@@ -49,9 +50,24 @@ ul {
   height: auto;
   border-radius: 8px;
 }
+
 .github-box p {
   margin-top: 8px;
   font-size: 14px;
   font-weight: bold;
   text-align: center;
+}
+
+/* New styles */
+.left-side {
+  padding: 0 20px;
+}
+
+.left-side hr {
+  border-top: 1px solid #4caf50;
+  margin: 10px 0;
+}
+
+.left-side p {
+  margin-bottom: 0.5rem;
 }
