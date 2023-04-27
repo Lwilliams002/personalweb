@@ -5,12 +5,12 @@ import "./Projects.css";
 const projects = [
   {
     title: 'Stockboard',
-    image: 'https://user-images.githubusercontent.com/82903572/234044608-ff620d58-77e2-4db5-9dc3-718109182957.png',
+    image: 'https://user-images.githubusercontent.com/82903572/234873395-276124a3-1607-44a0-b0c2-0fccd570af7b.png',
     path: 'https://lwilliams002.github.io/Stockboard/',
   },
     {
       title: 'Expense Tracker',
-      image: "https://github.com/Lwilliams002/Expense-Tracker/blob/master/OIG.jpg?raw=true",
+      image: "https://github.com/Lwilliams002/Expense-Tracker/blob/master/img.png?raw=true",
       path: 'https://lwilliams002.github.io/Stockboard/',
     },
 
@@ -44,6 +44,7 @@ function Frontpage() {
                   alt={project.title}
                   height="200"
                   className="card-img"
+                  style={{ width: '100%', objectFit: 'cover' }}
                 />
                 <p className="card-text">{project.title}</p>
               </div>
