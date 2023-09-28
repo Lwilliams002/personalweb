@@ -31,7 +31,7 @@ const handleProjectClick = (url) => {
         variant="h4"
         textAlign="center"
         sx={{ marginTop: '1rem', marginBottom: '2rem' }}
-        color={"white"}
+        color={"#0F2C59"}
       >
         My Projects
       </Typography>
@@ -39,17 +39,17 @@ const handleProjectClick = (url) => {
         <Grid container justifyContent="center" spacing={4}>
           {projects.map((project, index) => (
             <Grid item xs={12} sm={6} lg={4} key={index} className="project-card">
-              <Grid container>
-                <Grid item xs={12} sm={6}>
+              <Grid container direction="column" alignItems="center" justifyContent="center">
+                <Grid >
                   <img
                     src={project.image}
                     alt={project.title}
                     height="100"
                     className="card-img"
-                    style={{  width: '100%', height: 'auto', objectFit: 'cover'  }}
+                    style={{  width: '100%', height: '100%', objectFit: 'cover'  }}
                   />
                 </Grid>
-                <Grid item xs={12} sm={6} md={4} style={{ paddingLeft: '20px', display: 'flex', flexDirection: 'column' }}>
+                <Grid  style={{  display: 'flex', flexDirection: 'column', margin: "0 auto"}}>
                   <Typography variant="h4" component="h2" textAlign="center" style={{marginBottom: '1rem'}}>
                     {project.title}
                   </Typography>
@@ -62,7 +62,7 @@ const handleProjectClick = (url) => {
                       color="primary"
                       startIcon={<GitHubIcon />}
                       onClick={() => handleProjectClick(project.path)}
-                      sx={{ marginTop: '1rem', marginRight: '1rem' }}
+                      sx={{ marginTop: '1rem' }}
                     >
                       GitHub Repo
                     </Button>
@@ -71,7 +71,7 @@ const handleProjectClick = (url) => {
                       color="primary"
                       startIcon={<LanguageIcon />}
                       onClick={() => handleProjectClick(project.website)}
-                      sx={{ marginTop: '1rem' }}
+                      sx={{ marginTop: '1rem', }}
                     >
                       Live Demo
                     </Button>

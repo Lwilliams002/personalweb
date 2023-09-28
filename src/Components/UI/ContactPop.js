@@ -49,7 +49,7 @@ function ContactPop(props) {
                 <Form.Group>
                     <button className="btn btn-primary send-button" type="submit"  onClick={props.onHide}>
                         <div className="alt-send-button">
-                            <i className="fa fa-paper-plane"></i><span className="send-text">SEND</span>
+                            <span className="send-text">SEND</span><i className="fa fa-paper-plane"></i>
                         </div>
                     </button>
                 </Form.Group>

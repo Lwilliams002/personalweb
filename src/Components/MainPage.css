@@ -33,19 +33,37 @@
 .hover-underline-animation {
   display: inline-block;
   position: relative;
-  color: #fdfdfd;
+  color: #0F2C59;
   font-size: 1.1rem;
   padding-right: 5%;
 }
 
+.icon-style {
+  color: #DAC0A3;
+}
+
 a {
-  color: #D4ADFC;
+  color: #0F2C59;
   text-decoration: none;
   margin-right: 20px;
   margin-left: 20px;
 }
 
 a:hover {
-  color: white;
+  color: #0F2C59;
 }
+
+a:hover .icon-style,
+a:hover .svg-inline--fa {
+  color: #DAC0A3;
+}
+
+.active .icon-style,
+.active .svg-inline--fa {
+  color: #0F2C59;
+}
+
+
+
+
 

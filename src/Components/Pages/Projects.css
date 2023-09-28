@@ -1,43 +1,55 @@
+.css-1xnaaoc-MuiGrid-root {
+  width: 100% !important;
+  margin-left: 0 !important;
+}
+.css-1xnaaoc-MuiGrid-root>.MuiGrid-item {
+  padding-left: 16px !important;
+}
 .project-card {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  position: relative;
   align-items: center;
   padding: 16px;
-  aspect-ratio: 1/1;
-  background-color: #865DFF;
+  background-color: #DAC0A3;
   cursor: pointer;
-  max-width: 500px;
+  width: 300px; /* Example fixed width */
+  height: 400px; /* Example fixed height */
   border-radius: 8px;
-  height: 100%;
   transition: background-color 0.3s, border-color 0.3s;
-  color: white;
+  color: #0F2C59;
+  overflow: hidden; /* Prevents content from overflowing */
+
 }
 
 body .project-card{
   margin: 16px; /* added this line for margin between each card */
-
+  padding-left: 16px;
 }
 
 .project-card:hover {
   background-color: transparent;
-  border: 3px solid #E384FF;
-  color: #FFA3FD;
+  border: 3px solid #0F2C59;
+  color: #0F2C59;
 }
 
 .card-img {
-  width: 100%;
-  height: auto;
+  max-height: 180px; /* Example maximum height */
+  width: auto;
   border-radius: 8px;
   object-fit: cover;
-  margin-right: 20px;
+  margin-bottom: 16px; /* Adjust to ensure spacing between image and text */
 }
 
 .card-text {
-  color: white;
+  color: #0F2C59;
   margin-top: 8px;
   font-size: 14px;
   font-weight: bold;
   text-align: center;
+}
+@media screen and (max-width: 850px) {
+  .project-card{
+    height: 100%;
+  }
 }
