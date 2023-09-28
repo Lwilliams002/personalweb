@@ -1,0 +1,79 @@
+/* General Styling for the Resume Component */
+.resume {
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+.resume{
+
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
+.name {
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+/* ... other styles ... */
+
+h1 {
+  color: #0F2C59;
+}
+
+ol {
+  list-style-type: none;
+  color: #F8F0E5;
+  font-size: 1.5rem;
+  padding-left: 0;
+}
+
+.experience-text {
+  color: #0F2C59;
+  font-size: 0.9rem;
+  display: block;
+}
+
+
+/* Styling for the Two Containers */
+.left-side{
+
+}
+.right-side, .left-side {
+  padding: 20px;
+  border: 2px solid transparent;
+  transition: border-color 0.3s, background-color 0.3s;
+  cursor: pointer;
+  background-color: #DAC0A3;
+  border-radius: 10%;
+  margin-top: 10px;
+}
+
+.right-side:hover, .left-side:hover {
+  background-color: transparent;
+  border: 3px solid #0F2C59;
+  color: #0F2C59;
+
+}
+
+.right-side h1, .left-side h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/* Adjustments for Skill items */
+.right-side p, .left-side p {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.right-side:hover p, .left-side:hover p {
+  color: #0F2C59;
+}
+

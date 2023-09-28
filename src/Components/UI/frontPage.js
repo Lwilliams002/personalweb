@@ -7,8 +7,8 @@ import {useState} from "react";
 import {Grid, Typography} from "@mui/material";
 import {faUserGraduate, faLaptopCode } from '@fortawesome/free-solid-svg-icons'
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import Resume from "../Pages/Resume";
-import "../Pages/Resume.css"
+import Resume from "../Pages/Skillset";
+import "../Pages/Skillset.css"
 import Projects from "../Pages/Projects";
 
 

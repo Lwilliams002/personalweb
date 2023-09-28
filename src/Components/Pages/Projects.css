@@ -17,20 +17,36 @@
   height: 400px; /* Example fixed height */
   border-radius: 8px;
   transition: background-color 0.3s, border-color 0.3s;
-  color: #0F2C59;
+  color: #EADBC8;
   overflow: hidden; /* Prevents content from overflowing */
 
-}
-
-body .project-card{
-  margin: 16px; /* added this line for margin between each card */
-  padding-left: 16px;
 }
 
 .project-card:hover {
   background-color: transparent;
   border: 3px solid #0F2C59;
   color: #0F2C59;
+}
+.project-card Button{
+  border: 1px solid #EADBC8;
+  color: #EADBC8;
+}
+.project-card:hover Button {
+  border: 2px solid #0F2C59;
+  color: #0F2C59;
+}
+body .project-card{
+  margin: 16px; /* added this line for margin between each card */
+  padding-left: 16px;
+}
+
+div .h1-tag{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+  font-size: 2.2rem;
 }
 
 .card-img {

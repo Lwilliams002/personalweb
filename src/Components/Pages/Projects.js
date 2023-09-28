@@ -26,15 +26,7 @@ const handleProjectClick = (url) => {
   };
   return (
     <div>
-      <Typography
-        component="h1"
-        variant="h4"
-        textAlign="center"
-        sx={{ marginTop: '1rem', marginBottom: '2rem' }}
-        color={"#0F2C59"}
-      >
-        My Projects
-      </Typography>
+      <h1 className="h1-tag">Portfolio</h1>
       <Container>
         <Grid container justifyContent="center" spacing={4}>
           {projects.map((project, index) => (
@@ -64,7 +56,7 @@ const handleProjectClick = (url) => {
                       onClick={() => handleProjectClick(project.path)}
                       sx={{ marginTop: '1rem' }}
                     >
-                      GitHub Repo
+                      GitHub
                     </Button>
                     <Button
                       variant="outlined"

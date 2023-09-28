@@ -1,11 +1,12 @@
 import FrontPage from "../UI/frontPage";
 import Projects from "./Projects";
-import Resume from "./Resume";
+import Resume from "./Skillset";
 import {Container} from "react-bootstrap";
 import "./Home.css"
 import ContactPop from "../UI/ContactPop";
 import Copyrights from "../UI/Copyrights";
 function Home(){
+
     return(
         <Container>
             <Container id={"homeSection"}>
@@ -19,7 +20,7 @@ function Home(){
             <Container id={"projectSection"} className={"project"}>
                 <Projects />
             </Container>
-            <Container id={"messageSection"} className={"message"}>
+            <Container id={"messageSection"} className={"message"} >
                 <ContactPop />
             </Container>
         </Container>
