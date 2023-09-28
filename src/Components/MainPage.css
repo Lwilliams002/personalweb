@@ -1,6 +1,25 @@
 .MainPage {
-  background-color: #1e242a;
+  backdrop-filter: blur(15px);
+  background: hsla(0,0%,74%,.3);
+  border-radius: 3rem;
+  bottom: 5%; /* center it vertically on the bottom */
+  transform: translateY(50%); /* compensate for the height of the Navbar */
+  left: 50%; /* center it horizontally */
+  transform: translateX(-50%) translateY(50%); /* combined transformations */
+  position: fixed; /* make it fixed */
+  display: flex; /* to help with centering content */
+  gap: 0.8rem;
+  width: 70%;
+  padding: 0.75rem 1.7rem;
   z-index: 10;
+}
+
+@media (min-width: 768px) {
+  .MainPage {
+    width: 20%;
+    padding: 0.75rem 1.7rem;
+  }
+
 }
 
 .item-num{
@@ -20,6 +39,7 @@
 }
 
 a {
+  color: #D4ADFC;
   text-decoration: none;
   margin-right: 20px;
   margin-left: 20px;
@@ -29,20 +49,3 @@ a:hover {
   color: white;
 }
 
-.hover-underline-animation:after {
-  content: '';
-  position: absolute;
-  width: 100%;
-  transform: scaleX(0);
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: #2fff00;
-  transform-origin: bottom right;
-  transition: transform 0.40s ease-in-out;
-}
-
-.hover-underline-animation:hover:after {
-  transform: scaleX(1);
-  transform-origin: bottom left;
-}

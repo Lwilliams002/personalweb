@@ -2,14 +2,30 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  position: relative;
   align-items: center;
   padding: 16px;
-  background-color: #1e242a;
+  aspect-ratio: 1/1;
+  background-color: #865DFF;
   cursor: pointer;
   max-width: 500px;
   border-radius: 8px;
   height: 100%;
+  transition: background-color 0.3s, border-color 0.3s;
+  color: white;
 }
+
+body .project-card{
+  margin: 16px; /* added this line for margin between each card */
+
+}
+
+.project-card:hover {
+  background-color: transparent;
+  border: 3px solid #E384FF;
+  color: #FFA3FD;
+}
+
 .card-img {
   width: 100%;
   height: auto;
@@ -17,7 +33,6 @@
   object-fit: cover;
   margin-right: 20px;
 }
-
 
 .card-text {
   color: white;

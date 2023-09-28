@@ -3,10 +3,8 @@ import {Route, Routes } from "react-router-dom";
 import Home from "./Components/Pages/Home";
 import Resume from "./Components/Pages/Resume";
 import Projects from "./Components/Pages/Projects";
-/*                  TO DO LIST
-* Create empty project containers
-* Add Resume page
-*  */
+import Copyrights from "./Components/UI/Copyrights";
+
 
 function App() {
   return (
@@ -14,9 +12,8 @@ function App() {
         <MainPage />
         <Routes>
             <Route path="personalweb/" element={<Home />} />
-            <Route path="/resume" element={<Resume />} />
-            <Route path="/projects" element={<Projects />} />
         </Routes>
+        <Copyrights />
     </div>
   );
 }

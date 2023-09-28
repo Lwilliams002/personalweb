@@ -1,9 +1,10 @@
 body {
   margin: 0;
-  font-family: Raleway,Helvetica,sans-serif;
+  font-family: "Times New Roman", serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #1E242A;
+  /*background-image: url("https://github.com/Lwilliams002/personalweb/blob/master/public/black-background.jpg?raw=truez");*/
+  background-color: #191825;
 }
 
 
@@ -11,3 +12,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body, html {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+

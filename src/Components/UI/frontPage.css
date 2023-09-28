@@ -1,46 +1,205 @@
-.frontPage{
-    margin-top: 5%;
+/* General Styles */
+.frontPage {
+    margin-top: 10%;
     text-align: center;
     color: white;
 }
-.intro-title{
-    font-size: 2.9rem;
+
+.intro-title,
+.intro-name,
+.intro-title-loop {
     font-weight: 750;
     padding-top: 1%;
 }
-.intro-title-loop{
-    color: #2fff00;
-    font-size: 2.9rem;
+
+.intro-title {
+    font-size: 1rem;
 }
-.intro-sum{
-    margin-right: auto;
-    margin-left: auto;
-    padding-top: 2%;
-    opacity: 80%;
-    width: 75%;
-    font-size: 1.1rem;
+
+.intro-name {
+    font-size: 2.6rem;
 }
-.profile{
+
+.intro-title-loop {
+    color: #E384FF;
+    font-size: 1.2rem;
+}
+
+.profile {
     height: auto;
     max-width: 100%;
     border-radius: 50%;
 }
 
+/* Contact Box Styles */
+.contact-box {
+    padding-top: 30px;
+}
+
+.contact-box button {
+    margin: 10px 5px;
+}
+
+/* Mid Section Styles */
+.Mid-Intro {
+    font-size: 2rem;
+    font-weight: 750;
+    padding-top: 1%;
+}
+
+.Mid-section {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Mid-section-image {
+    height: 70%;
+    width: 70%;
+    border-radius: 25%;
+    margin-bottom: 100px;
+}
+
+.Mid-section .intro-sum {
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 2%;
+    opacity: 80%;
+    width: 100%;
+    font-size: 1.1rem;
+    text-align: left;
+}
+
+/* Info Box Container */
+.info-boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Info Box Styles */
+.info-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    background-color: #FFA3FD;
+    cursor: pointer;
+    height: 160px;
+    width: 150px;
+    border-radius: 8px;
+    transition: background-color 0.3s, border-color 0.3s;
+    color: white;
+    margin: 20px;
+    position: relative;
+    flex-basis: calc(50% - 20px);
+}
+
+.info-box:hover {
+    background-color: transparent;
+    border: 3px solid #E384FF;
+    color: white;
+}
+
+.icon-content {
+    text-align: center;
+}
+
+.icon-content .info-box-title,
+.icon-content .info-box-sub {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.icon-content .info-box-title {
+    top: 60px;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.icon-content .info-box-sub {
+    top: 90px;
+    font-size: 1rem;
+}
+
+.info-icon {
+    position: absolute;
+    top: 20px;
+    color: #D4ADFC;
+    left: 0;
+    right: 0;
+}
+
+.icon-content {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+/* Media Queries */
 @media only screen and (min-device-width: 600px) and (max-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 2) {
-    .frontPage{
-        margin-top:10%;
+    .frontPage {
+        margin-top: 10%;
     }
 }
 
-@media only screen and (min-device-width: 200px) and (max-device-width: 600px) and (-webkit-min-device-pixel-ratio: 2) {
-    .frontPage{
-        margin-top: 15%;
+@media only screen and (max-width: 600px) {
+    .contact-box {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .contact-box button {
+        flex: 1;
+        margin: 10px 5px;
+        min-width: 100px;
+    }
+
+    .container{
+        padding: 0 16px;
+    }
+    .container .about-me {
+        padding: 0;
+    }
+    .Mid-section {
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        align-items: center;
+    }
+
+    .Mid-section .info-box {
+        height: 160px;
+        width: 180px;
+        flex: 1 1 auto;
+        margin: 5% 5%;
+    }
+
+    .Mid-section .intro-sum {
+        width: 100%;
         text-align: center;
     }
-    .intro-title{
-        margin-left:auto;
-        margin-right:auto;
+
+    .frontPage {
+        margin-top: 35%;
     }
 
+    .intro-title {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
+@media (min-width: 768px) {
+    .Mid-section {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: start;
+    }
+}
