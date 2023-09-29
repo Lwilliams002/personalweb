@@ -123,6 +123,11 @@ textarea {
     color: #aaa;
 }
 
+.btn-primary{
+    background-color: #0F2C59;
+    border-color: #0F2C59;
+}
+
 .contact-text {
     display: flex;
     flex-direction: row;
@@ -169,6 +174,12 @@ textarea {
 
 .social-media-list li a {
     color: #fff;
+    z-index: 9999;
+    position: relative;
+}
+.social-media-list li i {
+    z-index: 9999;
+    position: relative;
 }
 
 .social-media-list li {

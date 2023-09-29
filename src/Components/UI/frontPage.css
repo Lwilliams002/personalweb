@@ -1,8 +1,8 @@
 /* General Styles */
 .frontPage {
-    margin-top: 10%;
     text-align: center;
     color: #0F2C59;
+    padding-top: 10%;
 }
 
 .intro-title,
@@ -45,6 +45,10 @@
     font-size: 2rem;
     font-weight: 750;
     padding-top: 41%;
+    margin-top: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .Mid-section {
@@ -59,8 +63,13 @@
     width: 70%;
     border-radius: 25%;
     margin-bottom: 100px;
-}
 
+}
+.mid-section-image{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 .Mid-section .intro-sum {
     margin-right: auto;
     margin-left: auto;
@@ -145,7 +154,7 @@
 /* Media Queries */
 @media only screen and (min-device-width: 600px) and (max-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 2) {
     .frontPage {
-        margin-top: 10%;
+        padding-top: 10%;
     }
 }
 
@@ -191,7 +200,7 @@
     }
 
     .frontPage {
-        margin-top: 35%;
+        padding-top: 10%;
     }
 
     .intro-title {

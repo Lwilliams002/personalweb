@@ -21,6 +21,9 @@
   }
 
 }
+.active {
+  color: #0F2C59 !important;
+}
 
 .item-num{
   color: white;

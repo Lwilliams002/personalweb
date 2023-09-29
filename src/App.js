@@ -10,9 +10,7 @@ function App() {
   return (
     <div>
         <MainPage />
-        <Routes>
-            <Route path="personalweb/" element={<Home />} />
-        </Routes>
+        <Home />
         <Copyrights />
     </div>
   );
