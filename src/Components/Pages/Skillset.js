@@ -1,10 +1,6 @@
 import { Col, Container, Row } from "react-bootstrap";
 import "./Skillset.css";
 
-const handleClick = () => {
-    window.location.href = "https://github.com/lwilliams002";
-};
-
 function Resume() {
     return (
         <Container className={"resume"}>

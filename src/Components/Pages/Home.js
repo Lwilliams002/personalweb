@@ -4,7 +4,6 @@ import Resume from "./Skillset";
 import {Container} from "react-bootstrap";
 import "./Home.css"
 import ContactPop from "../UI/ContactPop";
-import Copyrights from "../UI/Copyrights";
 import AboutMe from "../UI/AboutMe";
 function Home(){
 

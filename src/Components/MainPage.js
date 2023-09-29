@@ -48,7 +48,6 @@ function MainPage() {
 
         window.addEventListener('scroll', handleScroll);
 
-        // Cleanup
         return () => {
             window.removeEventListener('scroll', handleScroll);
         };

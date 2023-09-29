@@ -45,17 +45,24 @@ function AboutMe(){
 
 
                     <p className={"intro-sum"}>Hello! I'm Lesly,</p>
-                    <p className={"intro-sum"}>Software Engineer, Developer, Blockchain Enthusiast, Traveler and Man of culture.</p>
+                    <p className={"intro-sum"}>Software Engineer, Traveler, and an aspiring AR Developer.</p>
                     <p className={"intro-sum"}>
-                        A natural affinity for computers has sparked a pursuit into the tech industry with aspirations of
-                        creating applications and software to help further the advancement of innovation in technology.
+                        Computers have always captivated me, leading me on a rewarding journey through the tech industry.
+                        Fueled by a passion for innovation and practicality, I dove headfirst into self-taught programming,
+                        fortified by comprehensive Full Stack Web Development courses on Udemy.
                     </p>
                     <p className={"intro-sum"}>
-                        Most of my foundational programming skills are from a coding bootcamp with Generation USA.
-                        My hunger to flexibly explore practical solutions in a creative manner led me down the self-taught path.
-                        As I continue to build new projects and revise old ones, I am always seeking to improve my programming toolbelt.
-                        Currently, I am in pursuit of finishing my Associate in Science in Networking Services Technology - Enterprise Cloud Computing degree at Miami-Dade College.
+                        With each project I undertake, I strive to expand my programming skills, constantly looking to weave creativity into functionality.
+                        As of now, I'm deepening my knowledge base by pursuing a Bachelor of Science in Computer Science at Florida International University (FIU).
+                        But it's the magic of Augmented Reality (AR) that truly sparks my dreams.
+                        I envision a future where the line between our digital experiences and tangible reality becomes seamlessly integrated.
+                        And I'm determined to be at the forefront of making that fusion come alive.
                     </p>
+
+
+
+
+
                 </Container>
             </Container>
 

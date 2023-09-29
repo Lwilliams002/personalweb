@@ -2,12 +2,11 @@
   backdrop-filter: blur(15px);
   background: hsla(0,0%,74%,.3);
   border-radius: 3rem;
-  bottom: 5%; /* center it vertically on the bottom */
-  transform: translateY(50%); /* compensate for the height of the Navbar */
-  left: 50%; /* center it horizontally */
-  transform: translateX(-50%) translateY(50%); /* combined transformations */
-  position: fixed; /* make it fixed */
-  display: flex; /* to help with centering content */
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%) translateY(50%);
+  position: fixed;
+  display: flex;
   gap: 0.8rem;
   width: 70%;
   padding: 0.75rem 1.7rem;
