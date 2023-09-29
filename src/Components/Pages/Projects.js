@@ -11,6 +11,12 @@ const projects = [
     path: 'https://github.com/Lwilliams002/Stockboard',
       website: 'https://lwilliams002.github.io/Stockboard/',
   },
+  {
+    title: 'Learn2Earn',
+    image: "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/594/779/datas/original.png",
+    path: 'https://github.com/Lwilliams002/Learn2Earn',
+    website: 'https://lwilliams002.github.io/Learn2Earn/',
+  },
     {
       title: 'Expense Tracker',
       image: "https://github.com/Lwilliams002/Expense-Tracker/blob/master/img.png?raw=true",
