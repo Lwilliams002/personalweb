@@ -46,7 +46,6 @@ function frontPage() {
                                         Resume
                                     </Button>
                                 </Container>
-                                <img className={"profile"} src={"https://github.com/Lwilliams002/personalweb/blob/master/public/pro-headshot.png?raw=true"} alt={"Profile pic"}/>
                             </Container>
 
 

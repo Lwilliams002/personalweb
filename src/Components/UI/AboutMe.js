@@ -5,6 +5,9 @@ import {faLaptopCode, faUserGraduate} from "@fortawesome/free-solid-svg-icons";
 
 function AboutMe(){
 
+
+
+    // Create a roadmap for achievements with 1-2 sentences
     return(
         <Container id={"bookSection"}>
             <Container >
@@ -13,7 +16,7 @@ function AboutMe(){
             <Container className={"Mid-section"} >
 
                 <Container className={"mid-section-image"} >
-                    <img className="Mid-section-image" src={"https://github.com/Lwilliams002/personalweb/blob/master/public/mid-section.jpeg?raw=true"} alt={"Profile pic"}/>
+                    <img className={"profile"} src={"https://github.com/Lwilliams002/personalweb/blob/master/public/pro-headshot.png?raw=true"} alt={"Profile pic"}/>
                 </Container>
 
                 <Container className="about-me">

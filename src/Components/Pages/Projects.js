@@ -6,23 +6,18 @@ import './Projects.css';
 
 const projects = [
   {
+    title: 'EcoSpotter',
+      image: 'https://github.com/Lwilliams002/personalweb/blob/master/public/eco.png?raw=true',
+    path: 'https://github.com/Lwilliams002/EcoSpotter',
+      website: 'https://github.com/Lwilliams002/EcoSpotter/assets/82903572/66d5918a-ccde-429f-9c7a-57ba04ff4749',
+  },
+  {
     title: 'Stockboard',
       image: 'https://user-images.githubusercontent.com/82903572/234873395-276124a3-1607-44a0-b0c2-0fccd570af7b.png',
     path: 'https://github.com/Lwilliams002/Stockboard',
       website: 'https://lwilliams002.github.io/Stockboard/',
   },
-  {
-    title: 'Learn2Earn',
-    image: "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/594/779/datas/original.png",
-    path: 'https://github.com/Lwilliams002/Learn2Earn',
-    website: 'https://lwilliams002.github.io/Learn2Earn/',
-  },
-    {
-      title: 'Expense Tracker',
-      image: "https://github.com/Lwilliams002/Expense-Tracker/blob/master/img.png?raw=true",
-      path: 'https://github.com/Lwilliams002/Expense-Tracker',
-        website: 'https://github.com/Lwilliams002/Expense-Tracker',
-    },
+  
 
 ];
 
