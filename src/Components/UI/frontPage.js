@@ -13,7 +13,7 @@ function frontPage() {
         }
     }
     const openResumePDF = () => {
-        window.open('https://raw.githubusercontent.com/Lwilliams002/personalweb/master/public/Apple_Resume%20(jake%20resume).pdf', '_blank');
+        window.open('https://raw.githubusercontent.com/Lwilliams002/personalweb/master/public/dev_resume.pdf', '_blank');
     }
     // eslint-disable-next-line react-hooks/rules-of-hooks
 
