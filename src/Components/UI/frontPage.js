@@ -13,7 +13,7 @@ function frontPage() {
         }
     }
     const openResumePDF = () => {
-        window.open('https://raw.githubusercontent.com/Lwilliams002/personalweb/master/public/dev_resume.pdf', '_blank');
+        window.open('https://raw.githubusercontent.com/Lwilliams002/personalweb/master/public/Resum%20(%20Lastest%20).pdf', '_blank');
     }
     // eslint-disable-next-line react-hooks/rules-of-hooks
 
