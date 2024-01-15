@@ -13,7 +13,7 @@ function frontPage() {
         }
     }
     const openResumePDF = () => {
-        window.open('https://raw.githubusercontent.com/Lwilliams002/personalweb/master/public/Resum%20(%20Lastest%20).pdf', '_blank');
+        window.open('https://raw.githubusercontent.com/Lwilliams002/personalweb/master/public/Resume%20(%202024%20).pdf', '_blank');
     }
     // eslint-disable-next-line react-hooks/rules-of-hooks
 
@@ -28,9 +28,10 @@ function frontPage() {
                                     <h1 className={"intro-title-loop"}>
                                         <AnimatedText
                                             phrases={[
-                                                "Full Stack Developer",
-                                                "Backend Developer",
                                                 "Aspiring AR Developer",
+                                                "iOS Mobile Developer",
+                                                "Full Stack Developer",
+                                                
                                             ]}
                                             typingSpeed={50}
                                             delay={1500}
