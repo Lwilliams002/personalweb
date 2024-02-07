@@ -2,7 +2,6 @@ import "./frontPage.css";
 import {Button, Container} from "react-bootstrap";
 import AnimatedText from './AnimatedText';
 
-import "../Pages/Skillset.css"
 
 
 function frontPage() {

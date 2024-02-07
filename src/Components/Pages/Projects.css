@@ -5,6 +5,9 @@
 .css-1xnaaoc-MuiGrid-root>.MuiGrid-item {
   padding-left: 16px !important;
 }
+.project{
+  padding: 50px 0;;
+}
 .project-card {
   display: flex;
   flex-direction: column;

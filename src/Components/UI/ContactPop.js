@@ -19,7 +19,7 @@ function ContactPop(props) {
     }
 
     return (
-        <div>
+        <div className="contact">
             <div>
                 <h1 className="h1-tag2">Contact me</h1>
             </div>

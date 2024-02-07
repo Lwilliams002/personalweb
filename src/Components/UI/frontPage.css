@@ -44,15 +44,15 @@
 .Mid-Intro {
     font-size: 2rem;
     font-weight: 750;
-    padding-top: 41%;
+    /* padding-top: 0%; change this to 41 % */
     margin-top: 1%;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: left;
 }
 
 .Mid-section {
-    padding-top: 50px;
+    padding: 50px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -144,7 +144,9 @@
     font-size: 1rem;
 }
 
-
+.container .about-me {
+    padding-top: 10%;
+}
 
 .icon-content {
     margin-top: 20px;
@@ -178,7 +180,6 @@
     }
     .container .about-me {
         padding: 0;
-
     }
     .Mid-section {
         flex-direction: column;
@@ -192,6 +193,13 @@
         width: 180px;
         flex: 1 1 auto;
         margin: 5% 5%;
+    }
+
+    .Mid-Intro{
+        padding-top: 5%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
     }
 
     .Mid-section .intro-sum {

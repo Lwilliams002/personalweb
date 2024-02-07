@@ -1,6 +1,5 @@
 import FrontPage from "../UI/frontPage";
 import Projects from "./Projects";
-import Resume from "./Skillset";
 import {Container} from "react-bootstrap";
 import "./Home.css"
 import ContactPop from "../UI/ContactPop";
@@ -15,10 +14,6 @@ function Home(){
 
             <Container >
                 <AboutMe />
-            </Container>
-
-            <Container  className={"book"}>
-                <Resume />
             </Container>
 
             <Container id={"projectSection"} className={"project"}>

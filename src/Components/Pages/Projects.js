@@ -26,7 +26,7 @@ const handleProjectClick = (url) => {
     window.location.href = url;
   };
   return (
-    <div>
+    <div className="project">
       <h1 className="h1-tag">Portfolio</h1>
       <Container>
         <Grid container justifyContent="center" spacing={4}>
