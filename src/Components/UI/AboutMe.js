@@ -25,11 +25,11 @@ function AboutMe() {
 
 
   return (
-    <Container id={"bookSection"}>
+    <Container >
       <Container style={{ marginTop: splineViewerHeight / 4, marginBottom: splineViewerHeight / 4 }} ref={splineViewerContainerRef}>
         <spline-viewer url="https://prod.spline.design/wyoZ5NaVZeTkle6P/scene.splinecode"></spline-viewer>
       </Container>
-      <Container className={"Mid-section"}>
+      <Container className={"Mid-section"} id={"bookSection"}>
         <Container className={"mid-section-image"}>
           <img className={"profile"} src={"https://github.com/Lwilliams002/personalweb/blob/master/public/pro-headshot.png?raw=true"} alt={"Profile pic"} />
         </Container>
