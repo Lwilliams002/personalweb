@@ -12,7 +12,7 @@ function frontPage() {
         }
     }
     const openResumePDF = () => {
-        window.open('https://raw.githubusercontent.com/Lwilliams002/personalweb/master/public/Resume%20(%202024%20).pdf', '_blank');
+        window.open('https://raw.githubusercontent.com/Lwilliams002/personalweb/master/public/resume.pdf', '_blank');
     }
     // eslint-disable-next-line react-hooks/rules-of-hooks
 

@@ -6,6 +6,12 @@ import './Projects.css';
 
 const projects = [
   {
+    title: 'MealSwap',
+      image: 'https://github.com/Lwilliams002/iOS102-Group-Project/raw/main/mealswap-20240602.gif',
+    path: 'https://github.com/Lwilliams002/iOS102-Group-Project',
+      website: 'https://github.com/Lwilliams002/iOS102-Group-Project',
+  },
+  {
     title: 'EcoSpotter',
       image: 'https://github.com/Lwilliams002/personalweb/blob/master/public/eco.png?raw=true',
     path: 'https://github.com/Lwilliams002/EcoSpotter',
